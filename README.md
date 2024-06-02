@@ -23,6 +23,9 @@
 
 ## Folders and Files
 
+- **data**, **doc** and **img**:
+  - Contains the original elements from the StatsBomb's Database
+
 - **Dockerfile**:
   - Contains the instructions to build the Docker image for the application. It sets up the environment, installs dependencies, and specifies how to run the app.
 
@@ -33,7 +36,7 @@
   - Lists the Python dependencies required by the application. These packages will be installed in the Docker image during the build process.
 
 - **Preparation_datasets.ipynb**:
-  - Jupyter Notebook that extracts all useful data from StatsBomb's files and creates usable datasets for the app. This file is useless without those original StatsBomb data files.
+  - Jupyter Notebook that extracts all useful data from StatsBomb's files and creates usable datasets for the app. 
 
 - **data_app**:
   - Folder containing the datasets created in `Preparation_datasets.ipynb` and saved as CSV files. Those are the datasets used by the web application.
