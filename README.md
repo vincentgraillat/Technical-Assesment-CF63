@@ -48,8 +48,8 @@
 
 ## Set-up of the app
 - **Run docker-compose build**:
-  Run  ```docker-compose build ``` in your terminal. This step ensures that all dependencies and configurations are correctly set up within a Docker image. Make sure you are in the right folder, I had issue with the zip extraction creating a new folder.
-
+  Run  ```docker-compose build ``` in your terminal. This step ensures that all dependencies and configurations are correctly set up within a Docker image. 
+  
 - **Run docker-compose up**:
   Run  ```docker-compose up ``` in your terminal. This command will start the application defined in the `docker-compose.yml` file.
 
